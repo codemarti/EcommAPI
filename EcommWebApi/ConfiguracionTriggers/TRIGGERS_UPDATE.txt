@@ -1,0 +1,463 @@
+﻿--TRIGGER (UPDATE)--
+
+_____________________________________Tabla Categorias__________________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TRIGGER TRIGGER_ACTUALIZAR_CATEGORIA
+ON Categorias
+AFTER UPDATE
+AS 
+BEGIN
+    DECLARE @categoriaAntigua VARCHAR(100)
+    DECLARE @categoriaNueva VARCHAR(100)
+    DECLARE @productoAfectado VARCHAR(100) = 'No se afecto ningún producto'
+    DECLARE @Empleado VARCHAR(100) = HOST_NAME()
+
+    -- Obtener el nombre de la categoría antes de la actualización
+    SELECT @categoriaAntigua = NombreCategoria FROM deleted
+
+    -- Obtener el nombre de la categoría después de la actualización
+    SELECT @categoriaNueva = NombreCategoria FROM inserted
+
+    -- Obtener el nombre del producto afectado a partir de la tabla "Productos" y "Categorias"
+    SELECT @productoAfectado = P.NombreProducto
+    FROM Productos P
+    INNER JOIN inserted I ON P.CategoriaId = I.IdCategoria
+
+    -- Actualizar la categoría en la tabla "Categorias"
+    UPDATE Categorias
+    SET NombreCategoria = @categoriaNueva
+    WHERE IdCategoria = (SELECT IdCategoria FROM inserted)
+
+    -- Insertar registro en la tabla "Historial" con los datos obtenidos
+    INSERT INTO HistorialCategorias (FechaRealizado, NombreAccion, NombreCategoriaAntigua, NombreCategoriaNueva, NombreEmpleado, ProductoAfectado)
+    VALUES (GETDATE(), 'Actualizacion de categoria', @categoriaAntigua, @categoriaNueva, @Empleado, @productoAfectado)
+END
+
+_________________________________________Tabla Productos______________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TRIGGER TRIGGER_ACTUALIZAR_PRODUCTO
+   ON Productos
+   AFTER UPDATE
+AS 
+BEGIN
+    DECLARE @productoAntiguo VARCHAR(100)
+    DECLARE @productoNuevo VARCHAR(100)
+	DECLARE @categoriaAntigua VARCHAR(100)
+    DECLARE @categoriaNueva VARCHAR(100)
+	DECLARE @marcaAntigua VARCHAR(100)
+    DECLARE @marcaNueva VARCHAR(100)
+    DECLARE @Empleado VARCHAR(100) = HOST_NAME()
+    DECLARE @Subproducto VARCHAR(100) = 'Ningún subproducto afectado' --Foráneo de subproductos
+
+    -- Obtener el nombre del producto antes de la actualización
+    SELECT @productoAntiguo = NombreProducto FROM deleted
+
+    -- Obtener el nombre del producto después de la actualización
+    SELECT @productoNuevo = NombreProducto FROM inserted
+
+	--CATEGORIA
+	-- Obtener el nombre de la categoria antigua 
+	SELECT @categoriaAntigua = NombreCategoria FROM deleted D INNER JOIN Categorias ca ON D.CategoriaId = ca.IdCategoria
+
+	-- Obtener el nombre de la categoria nueva
+	SELECT @categoriaNueva = NombreCategoria FROM inserted pro INNER JOIN Categorias ca ON pro.CategoriaId =ca.IdCategoria
+
+	--MARCA
+	-- Obtener el nombre de la marca antigua 
+	SELECT @marcaAntigua = NombreMarca FROM deleted D INNER JOIN Marcas ma ON D.MarcaId = ma.IdMarca
+
+	-- Obtener el nombre de la marca nueva
+	SELECT @marcaNueva = NombreMarca FROM inserted D INNER JOIN Marcas ma ON D.MarcaId = ma.IdMarca
+
+	-- Obtener el codigo de barras del subproducto que se afecto 
+    SELECT @Subproducto = S.CodigoBarras
+    FROM Subproductos S
+    INNER JOIN inserted I ON S.ProductoId = I.IdProducto
+
+    -- Actualizar el producto en la tabla "Productos"
+    UPDATE Productos
+    SET NombreProducto = @productoNuevo
+    WHERE IdProducto = (SELECT IdProducto FROM inserted)
+
+    -- Insertar registro en la tabla "Historial" con los datos obtenidos
+    INSERT INTO HistorialProductos 
+	(FechaRealizado, 
+	NombreAccion, 
+	NombreEmpleado, 
+	NombreCategoriaAntigua,
+	NombreCategoriaNueva,
+	NombreMarcaAntigua,
+	NombreMarcaNueva,
+	NombreProductoAntiguo, 
+	NombreProductoNuevo, 
+	SubproductoAfectado)VALUES 
+	(GETDATE(), 
+	'Actualización de producto', 
+	@Empleado,
+	@categoriaAntigua,
+	@categoriaNueva,
+	@marcaAntigua,
+	@marcaNueva,
+	@productoAntiguo, 
+	@productoNuevo, 
+	@Subproducto)
+
+END
+
+______________________________________Tabla Subproductos_______________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TRIGGER TRIGGER_ACTUALIZAR_SUBPRODUCTO
+   ON  Subproductos
+   AFTER UPDATE
+AS 
+BEGIN
+    DECLARE @Empleado VARCHAR(100) = HOST_NAME()
+    DECLARE @CodigoBarrasAntigua VARCHAR(100)
+    DECLARE @CodigoBarrasNueva VARCHAR(100)
+    DECLARE @NombreImagenAntigua NVARCHAR(MAX)
+    DECLARE @NombreImagenNueva NVARCHAR(MAX)
+    DECLARE @DescripcionAntigua NVARCHAR(MAX)
+    DECLARE @DescripcionNueva NVARCHAR(MAX)
+    DECLARE @PrecioSubAntiguo  DECIMAL(18,2)
+    DECLARE @PrecioSubNuevo  DECIMAL(18,2)
+    DECLARE @StockAntiguo INT
+    DECLARE @StockNuevo INT
+    DECLARE @NombreProductoAntiguo VARCHAR(100)
+    DECLARE @NombreProductoNuevo VARCHAR(100)
+    DECLARE @NombreSucursalAntigua VARCHAR(100)
+    DECLARE @NombreSucursalNueva VARCHAR(100)
+	DECLARE @carritoProducto VARCHAR(100) = 'Ningún carrito producto afectado'
+	DECLARE @subproductoserie VARCHAR(100) = 'Ningún subproducto serie afectado'
+
+    -- Obtener el codigo de barras antes de la actualización
+    SELECT @CodigoBarrasAntigua = CodigoBarras FROM deleted
+
+	-- Obtener el codigo de barras después de la actualización
+	SELECT @CodigoBarrasNueva = CodigoBarras FROM inserted
+
+	 -- Obtener la imagen antes de la actualización
+    SELECT @NombreImagenAntigua = ImagenSub FROM deleted
+
+	-- Obtener la imagen después de la actualización
+	SELECT @NombreImagenNueva = ImagenSub FROM inserted
+
+	-- Obtener la descripción antes de la actualización
+    SELECT @DescripcionAntigua = Descripcion FROM deleted
+
+	-- Obtener la descripción después de la actualización
+	SELECT @DescripcionNueva = Descripcion FROM inserted
+
+	-- Obtener el precio antes de la actualización
+    SELECT @PrecioSubAntiguo = PrecioSub FROM deleted
+
+	-- Obtener el precio después de la actualización
+	SELECT @PrecioSubNuevo = PrecioSub FROM inserted
+
+	-- Obtener el stock antes de la actualización
+    SELECT @StockAntiguo = Stock FROM deleted
+
+	-- Obtener el stock después de la actualización
+	SELECT @StockNuevo = Stock FROM inserted
+
+	-- Obtener el nombre del producto antigua antes de la eliminación 
+	SELECT @NombreProductoAntiguo = NombreProducto FROM deleted D INNER JOIN Productos P ON D.ProductoId = P.IdProducto
+
+	-- Obtener el nombre del producto nueva después de la inserción
+	SELECT @NombreProductoNuevo = NombreProducto FROM inserted I INNER JOIN Productos P ON I.ProductoId = P.IdProducto
+
+	-- Obtener el nombre de la sucursal antigua antes de la eliminación 
+	SELECT @NombreSucursalAntigua = NombreSucursal FROM deleted D INNER JOIN Sucursales S ON D.SucursalId = S.IdSucursal
+
+	-- Obtener el nombre de la sucursal nueva después de la inserción
+	SELECT @NombreSucursalNueva = NombreSucursal FROM inserted I INNER JOIN Sucursales S ON I.SucursalId = S.IdSucursal
+
+	-- Obtener el ID del carrito producto del subproducto que se afecto 
+    SELECT @carritoProducto = CP.IdCarritoProducto
+    FROM CarritoProductos CP
+    INNER JOIN inserted I ON CP.SubproductoId = I.SucursalId
+
+	-- Obtener el Numero de serie del subproducto que se afecto 
+    SELECT @subproductoserie = SS.IdSerie
+    FROM SubproductosSerie SS
+    INNER JOIN inserted I ON SS.SubproductoId = I.SucursalId
+
+	 -- Actualizar el producto en la tabla "Subproducto"
+    UPDATE Subproductos
+    SET CodigoBarras = @CodigoBarrasNueva
+    WHERE IdSubproducto = (SELECT IdSubproducto FROM inserted)
+
+    -- Insertar registro en la tabla "HistorialSuproductos" con los datos obtenidos
+    INSERT INTO HistorialSubproductos 
+	            (FechaRealizado,   
+                 NombreAccion,
+                 NombreEmpleado,
+                 CodigoBarrasAntigua, 
+                 CodigoBarrasNueva,
+                 NombreImagenAntigua,
+                 NombreImagenNueva,
+                 DescripcionAntigua,
+                 DescripcionNueva,
+                 PrecioSubAntiguo,
+                 PrecioSubNuevo,
+                 StockAntiguo,
+                 StockNuevo,
+                 NombreProductoAntiguo,
+                 NombreProductoNuevo,
+                 NombreSucursalAntigua,
+                 NombreSucursalNueva,
+                 CarritoProductoAfectado,
+                 SubproductoSerieAfectado) VALUES
+				(GETDATE(), 
+				'Actualización del subproducto',
+				@Empleado,
+				@CodigoBarrasAntigua,
+				@CodigoBarrasNueva,
+				@NombreImagenAntigua,
+				@NombreImagenNueva,
+				@DescripcionAntigua,
+				@DescripcionNueva,
+				@PrecioSubAntiguo,
+				@PrecioSubNuevo,
+				@StockAntiguo,
+				@StockNuevo,
+				@NombreProductoAntiguo,
+				@NombreProductoNuevo,
+				@NombreSucursalAntigua,
+				@NombreSucursalNueva,
+				@carritoProducto,
+				@subproductoserie)
+
+END
+
+
+_____________________________________Tabla Empleados___________________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- Crear el trigger que se dispare después de insertar un nuevo registro en la tabla 'Empleados'
+CREATE TRIGGER TRIGGER_ACTUALIZAR_EMPLEADO
+ON Empleados
+AFTER UPDATE
+AS 
+BEGIN
+    DECLARE @persona VARCHAR(100) = HOST_NAME()
+	DECLARE @apellidoEmpleado VARCHAR(100)
+	DECLARE @apellidoEmpleadoAntiguo VARCHAR(100) 
+	DECLARE @nombreEmpleado VARCHAR(100)
+    DECLARE @nombreEmpleadoAntiguo VARCHAR(100) 
+	DECLARE @numEmpleado VARCHAR(100)
+    DECLARE @numEmpleadoAntiguo VARCHAR(100) 
+	DECLARE @rfc VARCHAR(100)
+	DECLARE @rfcAntiguo VARCHAR(100) 
+	DECLARE @fechaNac VARCHAR(100)
+	DECLARE @fechaNacAntigua VARCHAR(100) 
+	DECLARE @telefonoEmpleado VARCHAR(100)
+	DECLARE @telefonoEmpleadoAntiguo VARCHAR(100) 
+	DECLARE @emailEmpleado VARCHAR(100)
+	DECLARE @emailEmpleadoAntiguo VARCHAR(100)
+	DECLARE @usuarioEmpleado VARCHAR(100)
+	DECLARE @usuarioEmpleadoAntiguo VARCHAR(100) 
+	DECLARE @passwordEmpleado VARCHAR(100)
+	DECLARE @passwordEmpleadoAntigua VARCHAR(100)
+	DECLARE @fechaIngreso VARCHAR(100)
+	DECLARE @fechaIngresoAntigua VARCHAR(100) 
+	DECLARE @fechaBaja VARCHAR(100)
+	DECLARE @fechaBajaAntigua VARCHAR(100) 
+    DECLARE @direccionAntigua NVARCHAR(MAX) 
+	DECLARE @direccion NVARCHAR(MAX)
+    DECLARE @generoAntiguo VARCHAR(100)  
+	DECLARE @genero VARCHAR(100)
+    DECLARE @estadoEmpleadoAntiguo VARCHAR(100) 
+	DECLARE @estadoEmpleado VARCHAR(100)
+    DECLARE @rolAntiguo VARCHAR(100) 
+	DECLARE @rol VARCHAR(100)
+    --Declaraciones que no se usan el historial pero sirven para obtener el dato de dirección antigua y nueva
+	DECLARE @direccionIdEliminada INT;
+	DECLARE @direccionId INT
+
+	-- ASIGNACION DE VALORES PARA LA TABLA HISTORIAL EMPLEADOS
+	-- ATRIBUTOS DE LA TABLA EMPLEADOS
+
+	--DATO ANTES DE ACTUALIZAR
+	SELECT @apellidoEmpleadoAntiguo = ApellidoEmpleado FROM deleted
+	--DATO DESPUÉS DE ACTUALIZAR
+	SELECT @apellidoEmpleado = ApellidoEmpleado FROM inserted
+
+
+	SELECT @nombreEmpleadoAntiguo = NombreEmpleado FROM deleted
+
+	SELECT @nombreEmpleado = NombreEmpleado FROM inserted
+
+
+	SELECT @numEmpleadoAntiguo = NumEmpleado FROM deleted
+
+	SELECT @numEmpleado = NumEmpleado FROM inserted
+
+
+	SELECT @rfcAntiguo = RFCE FROM deleted
+
+	SELECT @rfc = RFCE FROM inserted
+
+
+	SELECT @fechaNacAntigua = FechaNacEmpleado FROM deleted
+
+    SELECT @fechaNac = FechaNacEmpleado FROM inserted
+
+
+
+	SELECT @telefonoEmpleadoAntiguo = TelEmpleado FROM deleted
+
+    SELECT @telefonoEmpleado = TelEmpleado FROM inserted
+
+
+	SELECT @emailEmpleadoAntiguo = EmailEmpleado FROM deleted
+
+	SELECT @emailEmpleado = EmailEmpleado FROM inserted
+
+
+	SELECT @usuarioEmpleadoAntiguo = NickEmpleado FROM deleted
+
+	SELECT @usuarioEmpleado = NickEmpleado FROM inserted
+
+
+	SELECT @passwordEmpleadoAntigua = PassEmpleado FROM deleted
+
+	SELECT @passwordEmpleado = PassEmpleado FROM inserted
+
+
+	SELECT @fechaIngresoAntigua= FechaIngreso FROM deleted
+
+	SELECT @fechaIngreso = FechaIngreso FROM inserted
+
+
+	SELECT @fechaBajaAntigua = FechaBaja FROM deleted
+
+	SELECT @fechaBaja = FechaBaja FROM inserted
+
+	--Datos foráneos
+
+     SELECT @direccionIdEliminada = DireccionId FROM deleted;
+
+     -- Obtener la dirección eliminada a partir del ID de la dirección antes de actualizar
+     SELECT @direccionAntigua = (di.CP + ' ' + di.Calle1 + ' ' + di.Calle2  + ' ' + di.NumExt + ' ' + di.Detalles + ' ' +
+                              ci.NombreCiudad + ' ' + es.NombreEstado + ' ' + es.CodigoEstado + ' ' + pa.NombrePais + ' ' + pa.ISO)
+     FROM Direcciones di
+     INNER JOIN Ciudades ci ON ci.IdCiudad = di.CiudadId
+     INNER JOIN Estados es ON es.IdEstado = ci.EstadoId
+     INNER JOIN Paises pa ON pa.IdPais = es.PaisId
+     WHERE di.IdDireccion = @direccionIdEliminada;
+
+
+   SELECT @direccionId = DireccionId FROM inserted;
+
+   -- Obtener la dirección nueva a partir del ID de la dirección después de actualizar
+   SELECT @direccion = (di.CP + ' ' + di.Calle1 + ' ' + di.Calle2  + ' ' + di.NumExt + ' ' + di.Detalles + ' ' +
+                          ci.NombreCiudad + ' ' + es.NombreEstado + ' ' + es.CodigoEstado + ' ' + pa.NombrePais + ' ' + pa.ISO)
+   FROM Direcciones di
+   INNER JOIN Ciudades ci ON ci.IdCiudad = di.CiudadId
+   INNER JOIN Estados es ON es.IdEstado = ci.EstadoId
+   INNER JOIN Paises pa ON pa.IdPais = es.PaisId
+   WHERE di.IdDireccion = @direccionId;
+
+
+
+	SELECT @generoAntiguo = NombreGenero FROM deleted D INNER JOIN Generos G ON D.GeneroId = G.IdGenero
+
+	SELECT @genero = NombreGenero FROM inserted I INNER JOIN Generos G ON I.GeneroId = G.IdGenero
+
+	
+
+	SELECT @estadoEmpleadoAntiguo = NombreEdoEmpleado FROM deleted D INNER JOIN EstadoEmpleados EE ON D.EdoEmpleadoId = EE.IdEdoEmpleado
+
+	SELECT @estadoEmpleado = NombreEdoEmpleado FROM inserted I INNER JOIN EstadoEmpleados EE ON I.EdoEmpleadoId = EE.IdEdoEmpleado
+
+
+	SELECT @rolAntiguo = NombreRol FROM deleted D INNER JOIN Roles R ON D.RolId = R.IdRol
+
+	SELECT @rol = NombreRol FROM inserted I INNER JOIN Roles R ON I.RolId = R.IdRol
+
+
+	-- INSERCION DE DATOS OBTENIDOS A LA TABLA DE HISTORIAL EMPLEADOS
+	INSERT INTO HistorialEmpleados(
+	FechaRealizado,
+	NombreAccion,
+	NombrePersona, 
+	ApellidoEmpleadoAntiguo,
+    ApellidoEmpleadoNuevo,
+    NombreEmpleadoAntiguo,
+    NombreEmpleadoNuevo,
+	NumeroEmpleadoAntiguo,
+    NumeroEmpleadoNuevo,
+    RFCAntiguo,
+    RFCNuevo,
+    FechaNacimientoAntigua,
+    FechaNacimientoNueva,
+    TelefonoEmpleadoAntiguo,
+    TelefonoEmpleadoNuevo,
+    EmailEmpleadoAntiguo,
+    EmailEmpleadoNuevo,
+    NombreUsuarioAntiguo,
+    NombreUsuarioNuevo,
+    PasswordEmpleadoAntigua,
+    PasswordEmpleadoNueva,
+    FechaIngresoAntigua,
+    FechaIngresoNueva,
+    FechaBajaAntigua,
+    FechaBajaNueva,
+    DireccionEmpleadoAntigua,
+    DireccionEmpleadoNueva,
+    NombreEdoEmpleadoAntiguo,
+    NombreEdoEmpleadoNuevo,
+    NombreGeneroAntiguo,
+    NombreGeneroNuevo,
+    NombreRolAntiguo,
+    NombreRolNuevo)
+	VALUES (GETDATE(), 'Actualización de empleado', @persona, 
+	@apellidoEmpleadoAntiguo, 
+	@apellidoEmpleado,
+	@nombreEmpleadoAntiguo, 
+	@nombreEmpleado,
+	@numEmpleadoAntiguo,
+	@numEmpleado,
+	@rfcAntiguo,
+	@rfc,
+	@fechaNacAntigua,
+	@fechaNac,
+	@telefonoEmpleadoAntiguo,
+	@telefonoEmpleado,
+	@emailEmpleadoAntiguo,
+	@emailEmpleado,
+	@usuarioEmpleadoAntiguo,
+	@usuarioEmpleado,
+	@passwordEmpleadoAntigua,
+	@passwordEmpleado,
+	@fechaIngresoAntigua,
+	@fechaIngreso,
+	@fechaBajaAntigua,
+	@fechaBaja,
+	@direccionAntigua,
+	@direccion,
+	@estadoEmpleadoAntiguo,
+	@estadoEmpleado,
+	@generoAntiguo,
+	@genero,
+	@rolAntiguo,
+	@rol)
+END

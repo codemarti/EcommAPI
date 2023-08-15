@@ -1,0 +1,60 @@
+C:\Users\devse\source\repos\EcommWebApi\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\devse\source\repos\EcommWebApi\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\devse\source\repos\EcommWebApi\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\devse\source\repos\EcommWebApi\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\estancia 2\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\Upqroo\Desktop\EcommWebApi\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\Domain\obj\Debug\net7.0\ref\Domain.dll

@@ -1,0 +1,1 @@
+﻿Estos triggers se deben ejecutar en el gestor de base de datos, en este caso SQL SERVER

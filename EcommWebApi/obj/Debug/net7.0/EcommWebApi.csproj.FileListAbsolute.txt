@@ -1,0 +1,407 @@
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.exe
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.deps.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.runtimeconfig.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.pdb
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.AssemblyReference.cache
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfoInputs.cache
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfo.cs
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CoreCompileInputs.cache
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.EcommWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.EcommWebApi.props
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EcommWebApi.props
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EcommWebApi.props
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\scopedcss\bundle\EcommWebApi.styles.css
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CopyComplete
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\refint\EcommWebApi.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.pdb
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.genruntimeconfig.cache
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\obj\Debug\net7.0\ref\EcommWebApi.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.pdb
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\devse\source\repos\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.exe
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.deps.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.runtimeconfig.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.pdb
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.pdb
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.AssemblyReference.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfoInputs.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfo.cs
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CoreCompileInputs.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.EcommWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.EcommWebApi.props
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EcommWebApi.props
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EcommWebApi.props
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\scopedcss\bundle\EcommWebApi.styles.css
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CopyComplete
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\refint\EcommWebApi.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.pdb
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.genruntimeconfig.cache
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\ref\EcommWebApi.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.exe
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.deps.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.runtimeconfig.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.pdb
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.pdb
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.AssemblyReference.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfoInputs.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfo.cs
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CoreCompileInputs.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.EcommWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.EcommWebApi.props
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EcommWebApi.props
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EcommWebApi.props
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\scopedcss\bundle\EcommWebApi.styles.css
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CopyComplete
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\refint\EcommWebApi.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.pdb
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.genruntimeconfig.cache
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\ref\EcommWebApi.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.exe
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.deps.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.runtimeconfig.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.pdb
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.pdb
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.AssemblyReference.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfoInputs.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfo.cs
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.EcommWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.EcommWebApi.props
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EcommWebApi.props
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EcommWebApi.props
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\scopedcss\bundle\EcommWebApi.styles.css
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CopyComplete
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\refint\EcommWebApi.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.pdb
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.genruntimeconfig.cache
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\obj\Debug\net7.0\ref\EcommWebApi.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.exe
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.deps.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.runtimeconfig.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\EcommWebApi.pdb
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Domain.pdb
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.AssemblyReference.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfoInputs.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.AssemblyInfo.cs
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.EcommWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.EcommWebApi.props
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EcommWebApi.props
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EcommWebApi.props
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\scopedcss\bundle\EcommWebApi.styles.css
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.csproj.CopyComplete
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\refint\EcommWebApi.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.pdb
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\EcommWebApi.genruntimeconfig.cache
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\obj\Debug\net7.0\ref\EcommWebApi.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Upqroo\OneDrive - Universidad Politécnica de Quintana Roo\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nitra\OneDrive\Escritorio\EcommWebApi\EcommWebApi\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\estancia 2\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Upqroo\Desktop\EcommWebApi\EcommWebApi\bin\Debug\net7.0\BCrypt.Net-Next.dll

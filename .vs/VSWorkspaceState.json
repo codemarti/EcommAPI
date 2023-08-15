@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Domain",
+    "\\Domain\\Funcionalidades",
+    "\\EcommWebApi",
+    "\\EcommWebApi\\ConfiguracionJwt",
+    "\\EcommWebApi\\ConfiguracionJwt\\EmpleadoJwt",
+    "\\EcommWebApi\\Controllers",
+    "\\EcommWebApi\\Datos",
+    "\\EcommWebApi\\Repositorios"
+  ],
+  "SelectedNode": "\\EcommWebApi.sln",
+  "PreviewInSolutionExplorer": false
+}

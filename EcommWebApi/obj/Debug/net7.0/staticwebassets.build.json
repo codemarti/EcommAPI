@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EvENU63PzK0FibgNTW4k/XeceO4aISSApFgBcMW6cvg=",
+  "Source": "EcommWebApi",
+  "BasePath": "_content/EcommWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

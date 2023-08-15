@@ -1,0 +1,306 @@
+﻿--TRIGGER (INSERT)--
+
+_________________________________________Tabla Categorias______________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TRIGGER TRIGGER_CREAR_CATEGORIA
+ON Categorias
+AFTER INSERT -- Cambiamos el INSTEAD OF por AFTER INSERT
+AS 
+BEGIN
+    DECLARE @categoria VARCHAR(100)
+    DECLARE @Empleado VARCHAR(100) = HOST_NAME()
+
+    -- Obtener el nombre de la categoría que se está creando
+    SELECT @categoria = NombreCategoria FROM inserted
+
+    -- Insertar registro en la tabla "CategoriaHistoriales" con los datos obtenidos
+    INSERT INTO HistorialCategorias (FechaRealizado, NombreAccion, NombreCategoriaAntigua, NombreCategoriaNueva, NombreEmpleado, ProductoAfectado)
+    VALUES (GETDATE(), 'Creación de categoría', 'Sin categoría previa', @categoria, @Empleado, 'Ningún producto afectado')
+END
+
+_______________________________________Tabla Productos________________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TRIGGER TRIGGER_CREAR_PRODUCTO
+   ON  Productos
+   AFTER INSERT
+AS 
+BEGIN
+	DECLARE @producto VARCHAR(100)
+        DECLARE @Empleado VARCHAR(100) = HOST_NAME()
+	DECLARE @categoria VARCHAR(100)
+	DECLARE @marca VARCHAR(100)
+	DECLARE @Subproducto VARCHAR(100) = 'Ningún subproducto afectado'
+
+    -- Obtener el nombre del producto que se está creando
+    SELECT @producto = NombreProducto FROM inserted
+
+	-- Obtener la categoria que le fue asignada al producto nuevo
+	SELECT @categoria = C.NombreCategoria
+    FROM Categorias C
+    INNER JOIN inserted I ON C.IdCategoria = I.CategoriaId
+
+	-- Obtener la marca que le fue asignada al producto nuevo
+	SELECT @marca = M.NombreMarca
+    FROM Marcas M
+    INNER JOIN inserted I ON M.IdMarca = I.MarcaId
+
+    -- Insertar registro en la tabla "HistorialProductos" con los datos obtenidos
+    INSERT INTO HistorialProductos 
+	            (FechaRealizado, 
+				NombreAccion, 
+				NombreEmpleado,
+	            NombreCategoriaAntigua, 
+				NombreCategoriaNueva,
+				NombreMarcaAntigua,
+				NombreMarcaNueva,
+	            NombreProductoAntiguo, 
+				NombreProductoNuevo, 
+				SubproductoAfectado) VALUES
+				(GETDATE(), 
+				'Creación del producto',
+				@Empleado,
+				'Sin categoria previa',
+				@categoria,
+				'Sin marca previa',
+				@marca,
+				'Sin producto previa',
+				@producto,
+				@Subproducto)
+
+END
+
+_______________________________________Tabla Empleados__________________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- Crear el trigger que se dispare después de insertar un nuevo registro en la tabla 'Empleados'
+CREATE TRIGGER TRIGGER_CREAR_EMPLEADO
+ON Empleados
+AFTER INSERT
+AS 
+BEGIN
+    DECLARE @persona VARCHAR(100) = HOST_NAME()
+	DECLARE @apellidoEmpleado VARCHAR(100)
+	DECLARE @apellidoEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @nombreEmpleado VARCHAR(100)
+    DECLARE @nombreEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @numEmpleado VARCHAR(100)
+    DECLARE @numEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @rfc VARCHAR(100)
+	DECLARE @rfcAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @fechaNac VARCHAR(100)
+	DECLARE @fechaNacAntigua VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @telefonoEmpleado VARCHAR(100)
+	DECLARE @telefonoEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @emailEmpleado VARCHAR(100)
+	DECLARE @emailEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @usuarioEmpleado VARCHAR(100)
+	DECLARE @usuarioEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @passwordEmpleado VARCHAR(100)
+	DECLARE @passwordEmpleadoAntigua VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @fechaIngreso VARCHAR(100)
+	DECLARE @fechaIngresoAntigua VARCHAR(100) = 'Ningún dato previo'
+	DECLARE @fechaBaja VARCHAR(100)
+	DECLARE @fechaBajaAntigua VARCHAR(100) = 'Ningún dato previo'
+    DECLARE @direccionAntigua NVARCHAR(MAX) = 'Ningún dato previo', @direccion NVARCHAR(MAX)
+    DECLARE @generoAntiguo VARCHAR(100) = 'Ningún dato previo', @genero VARCHAR(100)
+    DECLARE @estadoEmpleadoAntiguo VARCHAR(100) = 'Ningún dato previo', @estadoEmpleado VARCHAR(100)
+    DECLARE @rolAntiguo VARCHAR(100) = 'Ningún dato previo', @rol VARCHAR(100)
+
+	-- ASIGNACION DE VALORES PARA LA TABLA HISTORIAL EMPLEADOS
+	-- ATRIBUTOS DE LA TABLA EMPLEADOS
+
+	SELECT @apellidoEmpleado = ApellidoEmpleado FROM inserted
+	SELECT @nombreEmpleado = NombreEmpleado FROM inserted
+	SELECT @numEmpleado = NumEmpleado FROM inserted
+	SELECT @rfc = RFCE FROM inserted
+	SELECT @fechaNac = FechaNacEmpleado FROM inserted
+	SELECT @telefonoEmpleado = TelEmpleado FROM inserted
+	SELECT @emailEmpleado = EmailEmpleado FROM inserted
+	SELECT @usuarioEmpleado = NickEmpleado FROM inserted
+	SELECT @passwordEmpleado = PassEmpleado FROM inserted
+	SELECT @fechaIngreso = FechaIngreso FROM inserted
+	SELECT @fechaBaja = FechaBaja FROM inserted
+
+	--Datos foráneos
+
+	 SELECT @direccion = (di.CP + ' ' + di.Calle1 + ' ' + di.Calle2  + ' ' + di.NumExt + ' ' + di.Detalles + ' ' +
+                     ci.NombreCiudad + ' ' + es.NombreEstado + ' ' + es.CodigoEstado + ' ' + pa.NombrePais + ' ' + pa.ISO)
+     FROM Paises pa
+     INNER JOIN Estados es ON es.PaisId = pa.IdPais
+     INNER JOIN Ciudades ci ON ci.EstadoId = es.IdEstado
+     INNER JOIN Direcciones di ON di.CiudadId = ci.IdCiudad
+
+	SELECT @genero = NombreGenero FROM Generos ge INNER JOIN Empleados em ON em.GeneroId = ge.IdGenero
+	SELECT @estadoEmpleado = NombreEdoEmpleado FROM EstadoEmpleados ee INNER JOIN Empleados em ON em.EdoEmpleadoId = ee.IdEdoEmpleado
+	SELECT @rol = NombreRol FROM Roles ro INNER JOIN Empleados em ON em.EdoEmpleadoId = ro.IdRol
+
+	-- INSERCION DE DATOS OBTENIDOS A LA TABLA DE HISTORIAL EMPLEADOS
+	INSERT INTO HistorialEmpleados(
+	FechaRealizado,
+	NombreAccion,
+	NombrePersona, 
+	ApellidoEmpleadoAntiguo,
+    ApellidoEmpleadoNuevo,
+    NombreEmpleadoAntiguo,
+    NombreEmpleadoNuevo,
+	NumeroEmpleadoAntiguo,
+	NumeroEmpleadoNuevo,
+    RFCAntiguo,
+    RFCNuevo,
+    FechaNacimientoAntigua,
+    FechaNacimientoNueva,
+    TelefonoEmpleadoAntiguo,
+    TelefonoEmpleadoNuevo,
+    EmailEmpleadoAntiguo,
+    EmailEmpleadoNuevo,
+    NombreUsuarioAntiguo,
+    NombreUsuarioNuevo,
+    PasswordEmpleadoAntigua,
+    PasswordEmpleadoNueva,
+    FechaIngresoAntigua,
+    FechaIngresoNueva,
+    FechaBajaAntigua,
+    FechaBajaNueva,
+    DireccionEmpleadoAntigua,
+    DireccionEmpleadoNueva,
+    NombreEdoEmpleadoAntiguo,
+    NombreEdoEmpleadoNuevo,
+    NombreGeneroAntiguo,
+    NombreGeneroNuevo,
+    NombreRolAntiguo,
+    NombreRolNuevo)
+	VALUES (GETDATE(), 'Creacion de empleado', @persona,
+	@apellidoEmpleadoAntiguo,
+	@apellidoEmpleado,
+	@nombreEmpleadoAntiguo,
+	@nombreEmpleado,
+	@numEmpleadoAntiguo,
+	@numEmpleado,
+	@rfcAntiguo,
+	@rfc,
+	@fechaNacAntigua,
+	@fechaNac,
+	@telefonoEmpleadoAntiguo,
+	@telefonoEmpleado,
+	@emailEmpleadoAntiguo,
+	@emailEmpleado,
+	@usuarioEmpleadoAntiguo,
+	@usuarioEmpleado,
+	@passwordEmpleadoAntigua,
+	@passwordEmpleado,
+	@fechaIngresoAntigua,
+	@fechaIngreso,
+	@fechaBajaAntigua,
+	@fechaBaja,
+	@direccionAntigua,
+	@direccion,
+	@estadoEmpleadoAntiguo,
+	@estadoEmpleado,
+	@generoAntiguo,
+	@genero,
+	@rolAntiguo,
+	@rol)
+END
+_______________________________________Tabla Subproductos______________________________________
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TRIGGER TRIGGER_CREAR_SUBPRODUCTO
+   ON  Subproductos
+   AFTER INSERT
+AS 
+BEGIN
+    DECLARE @Empleado VARCHAR(100) = HOST_NAME()
+	DECLARE @codigo VARCHAR(100)
+	DECLARE @imagen NVARCHAR(MAX)
+	DECLARE @descripcion NVARCHAR(MAX)
+	DECLARE @precio DECIMAL(18,2)
+	DECLARE @stock INT
+    DECLARE @producto VARCHAR(100)
+	DECLARE @sucursal VARCHAR(100)
+	DECLARE @carritoProducto VARCHAR(100) = 'Ningún carrito producto afectado'
+	DECLARE @subproductoserie VARCHAR(100) = 'Ningún subproducto serie afectado'
+
+    -- Obtener el codigo de barras del subproducto que se está creando
+    SELECT @codigo = CodigoBarras FROM inserted
+
+	-- Obtener la imagen del subproducto que se esta creando
+	 SELECT @imagen = ImagenSub FROM inserted
+
+	-- Obtener la descripción del subproducto que se esta creando
+	 SELECT @descripcion = Descripcion FROM inserted
+
+	-- Obtener el precio del subproducto que se esta creando
+	 SELECT @precio = PrecioSub FROM inserted
+
+	-- Obtener el stock del subproducto que se esta creando
+	 SELECT @stock = Stock FROM inserted
+
+	-- Obtener el producto en la que fue asignada el subproducto nuevo
+	SELECT @producto = P.NombreProducto
+    FROM Productos P
+    INNER JOIN inserted I ON P.IdProducto = I.ProductoId
+
+	-- Obtener la sucursal en la que fue asignada el subproducto nuevo
+	SELECT @sucursal = SUC.NombreSucursal
+    FROM Sucursales SUC
+    INNER JOIN inserted I ON SUC.IdSucursal = I.SucursalId
+
+    -- Insertar registro en la tabla "HistorialSuproductos" con los datos obtenidos
+    INSERT INTO HistorialSubproductos 
+	            (FechaRealizado,   
+                 NombreAccion,
+                 NombreEmpleado,
+                 CodigoBarrasAntigua, 
+                 CodigoBarrasNueva,
+                 NombreImagenAntigua,
+                 NombreImagenNueva,
+                 DescripcionAntigua,
+                 DescripcionNueva,
+                 PrecioSubAntiguo,
+                 PrecioSubNuevo,
+                 StockAntiguo,
+                 StockNuevo,
+                 NombreProductoAntiguo,
+                 NombreProductoNuevo,
+                 NombreSucursalAntigua,
+                 NombreSucursalNueva,
+                 CarritoProductoAfectado,
+                 SubproductoSerieAfectado) VALUES
+				(GETDATE(), 
+				'Creación del producto',
+				@Empleado,
+				'Sin codigo de barras previa',
+				@codigo,
+				'Sin imagen previa',
+				@imagen,
+				'Sin descripción previa',
+				@descripcion,
+				0,
+				@precio,
+				0,
+				@stock,
+				'Sin producto previo',
+				@producto,
+				'Sin sucursal previa',
+				@sucursal,
+				@carritoProducto,
+				@subproductoserie)
+
+END
